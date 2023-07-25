@@ -1,0 +1,100 @@
+* {
+  /* box-sizing: border-box;
+  outline: 2px solid limegreen !important;   */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+}
+
+.issue-item{
+  background-color: rgb(53, 53, 53);
+  height: 80px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-around
+}
+
+#heads{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#id-head{
+  width: 20%;
+}
+
+
+#title-head{
+  width: 60%;
+  display: flex;
+  text-align: left;
+}
+
+#user-head{
+  width: 20%;  
+}
+
+#title-name{
+  color: rgb(255, 195, 57);
+  font-size: larger;
+  font-weight: bold;
+}
+
+#title-name:hover{
+  color: rgb(234, 27, 27);
+}
